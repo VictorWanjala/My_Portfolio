@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Wanjala_POrtfolio</title>
+    <title>Victor Wanjala_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Android / Fullstack Software Engineer</p>
+                <h1>Hi, I am <span>Victor Wanjala</span><br>A Kenyan Citizen</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- --------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/wanjala.jpg">
+               </div> 
+               <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A passionate problem-solver and software 
+                    developer with a unique background. I hold a certification in Android 
+                    development from Emobilis Institute of Technology, and I'm currently 
+                    pursuing a full-stack development certification at Moringa School while 
+                    also possessing a Bachelor's degree in Environmental Science. During my 
+                    three years of experience with a fintech company, I discovered my fervor 
+                    for technology and its potential to solve global challenges. This drove 
+                    me to embark on a thrilling journey into the tech world, where I merge 
+                    my expertise in environmental science with my growing skills in Android 
+                    and full-stack development. With an insatiable curiosity and dedication 
+                    to staying on top of industry advancements, I'm eager to collaborate on 
+                    projects, leveraging technology to make a meaningful impact. 
+                    Let's connect and create innovative solutions that make a difference!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>September 2023 to April 2023</span><br>Android developer at Emobilis</li>
+                            <li><span>June 2023 to date</span><br>Junior software developer at Moringa</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 2022</span><br>MIT at Emobilis Institute Of Technology</li>
+                            <li><span>2023 2023</span><br>Software Engineering at Moringa School</li>
+                            
+                        </ul>
+                    </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
